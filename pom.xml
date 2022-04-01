@@ -547,10 +547,17 @@
 
     <repositories>
         <repository>
-            <id>repository.spring.milestone</id>
-            <name>Spring Milestone Repository</name>
-            <url>https://repo.spring.io/milestone</url>
+            <id>intercepy</id>
+            <url>https://pkgs.dev.azure.com/intercepy/_packaging/intercepy/maven/v1</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
         </repository>
     </repositories>
+    
+    
 
 </project>
